@@ -230,10 +230,6 @@
         padding: 20px 10px 20px 10px;
     }
 
-    img.footer-ico.footer-icon-xsm {
-        width: 32px;
-    }
-
     #navbar p {
         color: #ffffff;
         font-family: "Poppins", sans-serif;
@@ -243,6 +239,20 @@
         padding: 15px 10px 0px 10px;
         letter-spacing: 0.4px;
         word-spacing: 1px;
+    }
+
+    .footer-license-images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        margin-bottom: 25px;
+    }
+
+    .footer-license-images img {
+        padding: 5px 8px 10px 8px;
+        max-width: 130px;
     }
 }
 
